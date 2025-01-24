@@ -1,0 +1,229 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007BFF;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+        .project {
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .project h3 {
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #007BFF;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .testimonials {
+            background: #e9ecef;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+        .testimonials blockquote {
+            margin: 0;
+            padding: 10px;
+            font-style: italic;
+        }
+        .skills, .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .skills div, .services div {
+            flex: 1 1 30%;
+            margin: 10px;
+            background: #f8f9fa;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        @media (max-width: 768px) {
+            .skills div, .services div {
+                flex: 1 1 100%;
+            }
+        }
+        .icon {
+            width: 24px;
+            height: 24px;
+            vertical-align: middle;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <p>Your Contact Information | Your LinkedIn Profile | Your Website/Blog</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a multifaceted developer and entrepreneur with a passion for creating innovative digital solutions. With extensive experience in e-commerce, mobile app development, and digital marketing, I have successfully launched and managed a variety of projects that enhance user experience and drive business growth.</p>
+</section>
+
+<section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/600x400?text=Sanskriti+Bazaar" alt="Sanskriti Bazaar Pvt Ltd">
+        <h3>Sanskriti Bazaar Pvt Ltd</h3>
+        <p><strong>Website:</ <a href="http://sanskritibazaar.in">sanskritibazaar.in</a></p>
+        <p><strong>Description:</strong> An innovative e-commerce platform offering a diverse range of products, focusing on quality and customer satisfaction.</p>
+        <p><strong>Technologies Used:</strong> PHP, Flutter, Node.js, MySQL, HTML, CSS, JavaScript</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/007BFF/project.png" class="icon" alt="Project Icon"> Project Link: <a href="http://sanskritibazaar.in">Visit</a></p>
+    </div>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/600x400?text=Grocery+Zaimboo" alt="Grocery Zaimboo Daily App">
+        <h3>Grocery Zaimboo Daily App</h3>
+        <p><strong>Website:</strong> <a href="http://daily.zaimboo.in">daily.zaimboo.in</a></p>
+        <p><strong>Description:</strong> A grocery delivery app designed to provide users with a seamless shopping experience, featuring real-time order tracking and personalized recommendations.</p>
+        <p><strong>Technologies Used:</strong> Flutter, Firebase, Node.js, RESTful APIs, Dart</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/007BFF/mobile-app.png" class="icon" alt="Mobile App Icon"> App Link: <a href="http://daily.zaimboo.in">Visit</a></p>
+    </div>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/600x400?text=Inventory+Management" alt="Inventory Management System">
+        <h3>Inventory Management System</h3>
+        <p><strong>Website:</strong> <a href="http://busiaudit.com">busiaudit.com</a></p>
+        <p><strong>Description:</strong> A comprehensive inventory management solution that helps businesses track stock levels, manage orders, and streamline deliveries.</p>
+        <p><strong>Technologies Used:</strong> PHP, Vue.js, MySQL, JavaScript, HTML, CSS</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/007BFF/inventory.png" class="icon" alt="Inventory Icon"> System Link: <a href="http://busiaudit.com">Visit</a></p>
+    </div>
+
+    <div class="project">
+        <img src="https://via.placeholder.com/600x400?text=CRM+System" alt="CRM System">
+        <h3>CRM System</h3>
+        <p><strong>Website:</strong> <a href="http://teammanage.in">teammanage.in</a></p>
+        <p><strong>Description:</strong> A customer relationship management tool designed to enhance communication and improve customer service.</p>
+        <p><strong>Technologies Used:</strong> Node.js, React, MongoDB, Express.js, JavaScript</p>
+        <p><img src="https://img.icons8.com/ios-filled/50/007BFF/crm.png" class="icon" alt="CRM Icon"> CRM Link: <a href="http://teammanage.in">Visit</a></p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/web-development.png" class="icon" alt="Web Development Icon"> Web Development: PHP, JavaScript (Node.js, Vue.js, React), HTML, CSS</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/mobile-development.png" class="icon" alt="Mobile Development Icon"> Mobile Development: Flutter, Dart, Java</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/database.png" class="icon" alt="Database Icon"> Database Management: MySQL, MongoDB, Firebase</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/version-control.png" class="icon" alt="Version Control Icon"> Version Control: Git, GitHub</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/api.png" class="icon" alt="API Icon"> APIs: RESTful APIs, GraphQL</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007B FF/cloud.png" class="icon" alt="Cloud Services Icon"> Cloud Services: AWS, Google Cloud Platform</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/digital-marketing.png" class="icon" alt="Digital Marketing Icon"> Digital Marketing: Google Ads, Facebook Ads, SEO, Content Marketing, Email Marketing</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/graphic-design.png" class="icon" alt="Graphic Design Icon"> Graphic Design: Proficient in video graphics design, branding, and content creation</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/project-management.png" class="icon" alt="Project Management Icon"> Project Management: Agile methodologies, team collaboration tools (Trello, Asana)</div>
+    </div>
+</section>
+
+<section id="services">
+    <h2>Services Offered</h2>
+    <div class="services">
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/e-commerce.png" class="icon" alt="E-commerce Icon"> E-commerce Solutions: Custom website and app development tailored to your business needs.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/mobile-app-development.png" class="icon" alt="Mobile App Development Icon"> Mobile App Development: Cross-platform applications using Flutter for enhanced user experience.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/inventory-management.png" class="icon" alt="Inventory Management Icon"> Inventory Management Systems: Tailored solutions to streamline inventory processes and reduce costs.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/crm-development.png" class="icon" alt="CRM Development Icon"> CRM Development: Custom CRM systems to improve customer relationships and sales processes.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/digital-marketing.png" class="icon" alt="Digital Marketing Icon"> Digital Marketing Services: Comprehensive strategies including SEO, PPC, and social media marketing to boost online visibility.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/graphic-design.png" class="icon" alt="Graphic Design Icon"> Graphic Design and Video Production: Creative services for branding, promotional materials, and engaging video content.</div>
+        <div><img src="https://img.icons8.com/ios-filled/50/007BFF/consultation.png" class="icon" alt="Consultation Icon"> Consultation Services: Expert advice on technology integration, digital transformation, and business strategy.</div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials">
+        <blockquote>
+            <p>"Working with [Your Name] has transformed our online presence. The e-commerce platform is user-friendly and efficient." — Client Name, Company</p>
+        </blockquote>
+        <blockquote>
+            <p>"The grocery app developed by [Your Name] has significantly improved our sales and customer satisfaction." — Client Name, Company</p>
+        </blockquote>
+        <blockquote>
+            <p>"The inventory management system has streamlined our operations, and we couldn't be happier with the results!" — Client Name, Company</p>
+        </blockquote>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog/Articles</h2>
+    <ul>
+        <li><strong>"The Future of E-commerce: Trends to Watch in 2024"</strong> - An exploration of emerging trends in the e-commerce landscape.</li>
+        <li><strong>"Mobile App Development: Best Practices for Success"</strong> - A guide to effective mobile app development strategies.</li>
+        <li><strong>"Digital Marketing Strategies for Small Businesses"</strong> - Insights into cost-effective digital marketing techniques.</li>
+    </ul>
+</section>
+
+<footer id="contact">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out for collaboration, inquiries, or just to connect!</p>
+    <p>Your Email Address | Your Phone Number | Your Social Media Links</p>
+</footer>
+
+</body>
+</html>
